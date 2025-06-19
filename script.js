@@ -18,7 +18,7 @@ if (document.getElementById('article-list')) {
         filtered.forEach(item => {
           const li = document.createElement('li');
           li.innerHTML = `
-            <a href="article.html?slug=${item.slug}">${item.title}</a>
+            <a href="${item.pdf}" target="_blank">${item.title}</a>
             <br><small>${item.date} — ${item.description}</small>
           `;
           listEl.appendChild(li);
