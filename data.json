@@ -1,12 +1,68 @@
 {
   "articles": [
     {
-      "slug": "rr-cine",
+      "slug": "Cinematique_relativiste-Phytheme",
       "title": "Phythème : Relativistic Cinematics",
-      "date": "2025-06-19",
+      "date": "2025-01-30",
       "description": "The following are notes on lectures given by Xavier Ovido on relativistic cinematics at the Phythème club.",
       "category": "physics",
-      "pdf": "articles/rr-cine.pdf"
+      "pdf": "articles/Cinematique_relativiste-Phytheme.pdf"
+    },
+    {
+      "slug": "Analyse-lycee",
+      "title": "High School : Calculus",
+      "date": "2025-4-4",
+      "description": "The following are notes on Calculus lectures given by Pierre Babinet and Maguelonne Paternotte at the lycée Saint Louis de Gonzague in Paris at the Terminale level",
+      "category":"math",
+      "pdf": "articles/Analyse-lycee.pdf"
+    },
+    {
+      "slug": "Probabilites-lycee",
+      "title": "High School : Probability",
+      "date": "2025-5-21",
+      "description": "",
+      "category":"math",
+      "pdf": "articles/Probabilites-lycee.pdf"
+    },
+    {
+      "slug": "Mecanique_des_fluides_lycee",
+      "title": "High School : Fluid Dynamics",
+      "date": "2025-4-3",
+      "description": "",
+      "category":"physics",
+      "pdf": "articles/Mecanique_des_fluides_lycee.pdf"
+    },
+    {
+      "slug": "Radioactivite-lycee",
+      "title": "High School : Radioactivity",
+      "date": "2025-6-5",
+      "description": "",
+      "category":"physics",
+      "pdf": "articles/Radioactivite-lycee.pdf"
+    },
+    {
+      "slug": "Complements_de_Cinematique-Phytheme",
+      "title": "Phythème : Cinematics",
+      "date": "2024-10-4",
+      "description": "The following are notes on lectures given by Xavier Ovido on newtonian cinematics at the Phythème club.",
+      "category":"Physics",
+      "pdf": "articles/Complements_de_Cinematique-Phytheme.pdf"
+    },
+    {
+      "slug": "Electricite-Phytheme",
+      "title": "Phythème : Electricity",
+      "date": "2025-3-20",
+      "description": "",
+      "category":"physics",
+      "pdf": "articles/Electricite-Phytheme.pdf"
+    },
+    {
+      "slug": "Dynamique_relativiste-Phytheme",
+      "title": "Phythème : Relativistic dynamics",
+      "date": "2025-3-7",
+      "description": "",
+      "category":"physics",
+      "pdf": "articles/Dynamique_relativiste-Phytheme.pdf"
     }
   ]
 }
