@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My LaTeX Notes Archive</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- MathJax configuration and script -->
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+    };
+  </script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+  <div id="container">
+    <aside id="sidebar">
+      <section id="bio">
+        <h2>About Me</h2>
+        <p>Short biography goes here. Include some context about yourself.</p>
+      </section>
+      <section id="social">
+        <h2>Social</h2>
+        <ul>
+          <li><a href="https://twitter.com/yourname">Twitter</a></li>
+          <li><a href="https://github.com/yourname">GitHub</a></li>
+        </ul>
+      </section>
+      <section id="filters">
+        <h2>Categories</h2>
+        <ul id="category-filters">
+          <li><button data-category="all">All</button></li>
+          <!-- More categories -->
+          <li><button data-category="math">Math</button></li>
+          <li><button data-category="physics">Physics</button></li>
+          <li><button data-category="engineering">Engineering</button></li>
+        </ul>
+      </section>
+    </aside>
+    <main id="content">
+      <h1>Articles</h1>
+      <ul id="article-list"></ul>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

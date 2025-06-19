@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Article Title</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- MathJax config and script (same as index.html) -->
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+    };
+  </script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+  <div id="container">
+    <aside id="sidebar">
+      <!-- (Same sidebar HTML as index, you can copy it) -->
+      <!-- ... -->
+    </aside>
+    <main id="content">
+      <h1 id="article-title"></h1>
+      <p id="article-meta"></p>
+      <div id="article-content">Loading content...</div>
+      <p><a id="pdf-link" href="#" download>Download PDF</a></p>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
