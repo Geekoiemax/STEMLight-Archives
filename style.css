@@ -28,6 +28,7 @@ body, html {
 }
 #sidebar li {
   margin: 5px 0;
+  color: dimgray;
 }
 #sidebar button {
   width: 100%;
@@ -35,6 +36,40 @@ body, html {
   margin: 2px 0;
   cursor: pointer;
 }
+
+/* Make social links sit side by side */
+#social ul {
+  list-style: none;       /* remove bullets */
+  padding: 0;
+  margin: 0;
+  display: flex;          /* layout children in a row */
+  gap: 1rem;              /* space between each link */
+  margin-bottom: 1em;
+}
+
+/* Ensure each link has no extra padding/margin */
+#social li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the anchors: gray text, no underline */
+#social a {
+  color: gray;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+/* (Optional) On hover, darken slightly */
+#social a:hover {
+  color: #555;
+}
+
+#content h1 {
+  text-align: center;
+}
+
 
 /* ARTICLE LIST BASE */
 #article-list {
