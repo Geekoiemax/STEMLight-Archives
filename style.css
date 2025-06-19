@@ -35,10 +35,66 @@ body, html {
   margin: 2px 0;
   cursor: pointer;
 }
-#article-list li {
-  margin-bottom: 1em;
+
+/* ARTICLE LIST BASE */
+#article-list {
+  list-style: none;    /* remove bullets */
+  margin: 0;
+  padding: 0;
 }
-#article-list a {
-  font-weight: bold;
+
+/* EACH ITEM AS A “CARD” */
+#article-list li {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 0px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+/* HOVER STATE */
+#article-list li:hover {
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* TITLE ON ITS OWN LINE */
+#article-list li a {
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
   text-decoration: none;
+  color: #333;
+  margin-top: 0.1rem;
+}
+
+/* DATE & DESCRIPTION */
+#article-list li small {
+  display: block;
+  font-size: 0.7rem;
+  color: #000;
+  line-height: 1.4;
+  margin-bottom: 0.1rem;
+}
+
+#article-list li desc {
+  display: block;
+  font-size: 0.9rem;
+  color: #000;
+  line-height: 1.4;
+  margin-bottom: 0.1rem;
+}
+
+
+/* OPTIONAL: TAG/CATEGORY BADGE */
+#article-list li .category {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.75rem;
+  background: #eef;
+  color: #336;
+  border-radius: 3px;
 }

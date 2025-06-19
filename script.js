@@ -4,6 +4,9 @@ if (document.getElementById('article-list')) {
   fetch('data.json')
     .then(response => response.json())
     .then(data => {
+      // Sort articles by date (newest first)
+      data.articles.sort((a, b) => new Date(b.date) - new Date(a.date));
+
       const articles = data.articles;
       const listEl = document.getElementById('article-list');
 
@@ -18,8 +21,9 @@ if (document.getElementById('article-list')) {
         filtered.forEach(item => {
           const li = document.createElement('li');
           li.innerHTML = `
-            <a href="${item.pdf}" target="_blank">${item.title}</a>
-            <br><small>${item.date} — ${item.description}</small>
+          <small>${item.date}</small>
+          <a href="${item.pdf}" target="_blank">${item.title}</a>
+          <desc>${item.description}</desc>
           `;
           listEl.appendChild(li);
         });
@@ -35,7 +39,8 @@ if (document.getElementById('article-list')) {
           showArticles(cat);
         }
       });
-    });
+    })
+    .catch(err => console.error('Failed to load data.json:', err));
 }
 
 
