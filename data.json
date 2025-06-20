@@ -63,6 +63,14 @@
       "description": "",
       "category":"physics",
       "pdf": "articles/Dynamique_relativiste-Phytheme.pdf"
+    },
+    {
+      "slug": "Engineering_guide-STEMRacing",
+      "title" : "STEM Racing : Engineering guide",
+      "date" : "2025-6-20",
+      "description" : "The following article is an introduction to engineering in the STEM Racingcompetition. I participated and succeeded in the competition, winning a design prize at the 2024 World finals. However, I found the competition quite inaccessible to independant teams, and so this guide's goal is to give engineers in the competition a helping hand in order to start. The guide is not yet finished, i hope to finish it by september.",
+      "category" : "engineering",
+      "pdf" : "articles/Engineering_guide-STEMRacing/pdf"
     }
   ]
 }
