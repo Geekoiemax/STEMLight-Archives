@@ -4,7 +4,7 @@
   --side-padding-top: 5rem;
   --content-padding-left: 2rem;
   --content-padding-top: 2.01rem;
-  --sidebar-width : 30%;
+  --sidebar-width : 42%;
 }
 
 
@@ -22,8 +22,8 @@ body, html {
   display: flex;
   min-height: 100vh;
   box-sizing: border-box;
-  width: 90%;
-  overflow-x: hidden;
+  width: 89%;
+  overflow-x: visible;
 }
 /*#sidebar {
   flex: 0 0 30%;
@@ -72,6 +72,7 @@ body, html {
 
 #sidebar p{
   padding-left: 0.5rem;
+  text-align: justify;
 }
 
 #sidebar li {
@@ -149,12 +150,17 @@ body, html {
   text-align: center;
 }
 
+#content p {
+  text-align: justify;
+}
+
 
 /* ARTICLE LIST BASE */
 #article-list {
   list-style: none;    /* remove bullets */
   margin: 0;
   padding: 0;
+  display: block;
 }
 
 /* EACH ITEM AS A “CARD” */
