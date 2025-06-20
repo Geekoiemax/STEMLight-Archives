@@ -32,9 +32,21 @@ if (document.getElementById('article-list')) {
       // Initially show all articles
       showArticles('all');
 
+      // After rendering the buttons, mark "all" as active
+      const allBtn = document.querySelector('#category-filters button[data-category="all"]');
+      if (allBtn) allBtn.classList.add('active');
+
       // Setup category filter buttons
-      document.getElementById('category-filters').addEventListener('click', e => {
+      const filterContainer = document.getElementById('category-filters');
+      filterContainer.addEventListener('click', e => {
         if (e.target.tagName === 'BUTTON') {
+          const btns = filterContainer.querySelectorAll('button');
+          // Remove .active from all
+          btns.forEach(b => b.classList.remove('active'));
+          // Add to the clicked one
+          e.target.classList.add('active');
+
+          // Now filter the list as before
           const cat = e.target.getAttribute('data-category');
           showArticles(cat);
         }
