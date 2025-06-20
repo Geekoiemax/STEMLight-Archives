@@ -30,12 +30,29 @@ body, html {
   margin: 5px 0;
   color: dimgray;
 }
-#sidebar button {
-  width: 100%;
-  padding: 5px;
-  margin: 2px 0;
-  cursor: pointer;
+
+/* Base style for category buttons */
+#category-filters button {
+  background: none;            /* no background */
+  border: none;                /* remove all default borders */
+  padding: 0.5rem 1rem;        /* comfortable hit area */
+  font-weight: bold;           /* bold text */
+  text-decoration: underline;  /* underlined text */
+  cursor: pointer;             /* pointer on hover */
+  border-left: 1px solid transparent; /* space reserved for the border */
+  transition: border-color 0.2s;
 }
+
+/* Hover state: gray left border */
+#category-filters button:hover {
+  border-left-color: gray;
+}
+
+/* Active state: black left border */
+#category-filters button.active {
+  border-left-color: black;
+}
+
 
 /* Make social links sit side by side */
 #social ul {
