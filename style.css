@@ -1,3 +1,12 @@
+:root {
+  /* You can adjust these values to control spacing everywhere */
+  --side-padding-left: 5rem;
+  --side-padding-top: 5rem;
+  --content-padding-left: 2rem;
+  --content-padding-top: 2rem;
+}
+
+
 /* Reset some basics */
 body, html {
   margin: 0;
@@ -8,12 +17,32 @@ body, html {
   display: flex;
   min-height: 100vh;
 }
-#sidebar {
+/*#sidebar {
   flex: 0 0 30%;
   background: #f0f0f0;
   padding: 20px;
   box-sizing: border-box;
+}*/
+
+#sidebar {
+  /* remove any hard‑coded padding you had here */
+  padding-top: var(--side-padding-top);
+  padding-left: var(--side-padding-left);
+  /* keep right/bottom padding if you like, e.g.: */
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  background: #f0f0f0;
 }
+
+#content {
+  /* same idea for the main area */
+  margin-top: var(--content-padding-top);
+  padding-left: var(--content-padding-left);
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+
 #content {
   flex: 1 0 70%;
   padding: 20px;
@@ -22,15 +51,32 @@ body, html {
 #sidebar h2 {
   margin-top: 0;
   font-size:large;
+  padding-left: 0.5rem;
 }
 #sidebar ul {
   list-style: none;
   padding: 0;
+  padding-left: 0;
 }
+
+#sidebar p{
+  padding-left: 0.5rem;
+}
+
 #sidebar li {
   margin: 5px 0;
   color: dimgray;
 }
+
+#sidebar img {
+  display: block;         /* ensures it starts at the left padding edge */
+  margin-bottom: 1rem;    /* space below the image */
+  width: 60px;           /* or whatever size you prefer */
+  height: auto;
+  border-radius: 50%;    /* round avatar */
+  padding-left: 0.5rem;
+}
+
 
 /* Base style for category buttons */
 #category-filters button {
@@ -42,6 +88,8 @@ body, html {
   cursor: pointer;             /* pointer on hover */
   border-left: 1px solid transparent; /* space reserved for the border */
   transition: border-color 0.2s;
+  width: 100%;
+  text-align: left;
 }
 
 /* Hover state: gray left border */
@@ -63,12 +111,14 @@ body, html {
   display: flex;          /* layout children in a row */
   gap: 1rem;              /* space between each link */
   margin-bottom: 1em;
+  padding-left: 0.5rem;
 }
 
 /* Ensure each link has no extra padding/margin */
 #social li {
   margin: 0;
   padding: 0;
+  padding-left: 0;
 }
 
 /* Style the anchors: gray text, no underline */
