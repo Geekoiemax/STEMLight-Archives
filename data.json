@@ -12,7 +12,7 @@
       "slug": "Analyse-lycee",
       "title": "High School : Calculus",
       "date": "2025-4-4",
-      "description": "The following are notes on Calculus lectures given by Pierre Babinet and Maguelonne Paternotte at the lycée Saint Louis de Gonzague in Paris at the Terminale level",
+      "description": "The following are notes on Calculus classes given by Pierre Babinet and Maguelonne Paternotte at the lycée Saint Louis de Gonzague in Paris at the Terminale level. The notes currently cover two chapters : differential equations and integration.",
       "category":"math",
       "pdf": "articles/Analyse-lycee.pdf"
     },
@@ -20,7 +20,7 @@
       "slug": "Probabilites-lycee",
       "title": "High School : Probability",
       "date": "2025-5-21",
-      "description": "HS probability classes...",
+      "description": "The following are notes on Probability from the french highschool math book by Lelivrescolaire. The notes cover the chapter on Sums of random variables and the law of large numbers.",
       "category":"math",
       "pdf": "articles/Probabilites-lycee.pdf"
     },
@@ -28,7 +28,7 @@
       "slug": "Mecanique_des_fluides_lycee",
       "title": "High School : Fluid Dynamics",
       "date": "2025-4-3",
-      "description": "",
+      "description": "The following notes are notes on a HS level class on Fluid Dynamics given by Pierre Chereau at Lycée St Louis de Gonzague. the notes give course reminders on fluid statics. They then cover the different descriptions of fluid flow. Finally, they cover Bernoulli's relation and the Venturi Effect.",
       "category":"physics",
       "pdf": "articles/Mecanique_des_fluides_lycee.pdf"
     },
@@ -36,7 +36,7 @@
       "slug": "Radioactivite-lycee",
       "title": "High School : Radioactivity",
       "date": "2025-6-5",
-      "description": "",
+      "description": "The following notes are notes on a HS level class on Radioactivity given by Pierre Chereau at Lycée St Louis de Gonzague. The first two parts cover the different types of radioactivity and the decay laws. The notes then cover dating using radioactiviy and radioprotection.",
       "category":"physics",
       "pdf": "articles/Radioactivite-lycee.pdf"
     },
@@ -68,7 +68,7 @@
       "slug": "Engineering_guide-STEMRacing",
       "title" : "STEM Racing : Engineering guide",
       "date" : "2025-6-20",
-      "description" : "The following article is an introduction to engineering in the STEM Racingcompetition. I participated and succeeded in the competition, winning a design prize at the 2024 World finals. However, I found the competition quite inaccessible to independant teams, and so this guide's goal is to give engineers in the competition a helping hand in order to start. The guide is not yet finished, i hope to finish it by September 2025.",
+      "description" : "The following article is an introduction to engineering in the STEM Racing competition. I participated and succeeded in the competition, winning a design prize at the 2024 World finals. However, I found the competition quite inaccessible to independant teams, and so this guide's goal is to give engineers in the competition a helping hand in order to start. The guide is not yet finished, i hope to finish it by September 2025.",
       "category" : "engineering",
       "pdf" : "articles/Engineering_guide-STEMRacing.pdf"
     }
