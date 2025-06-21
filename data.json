@@ -2,9 +2,9 @@
   "articles": [
     {
       "slug": "Cinematique_relativiste-Phytheme",
-      "title": "Phythème : Relativistic Cinematics",
+      "title": "Phythème : Relativistic Kinematics",
       "date": "2025-01-30",
-      "description": "The following are notes on lectures given by Xavier Ovido on relativistic cinematics at the Phythème club.",
+      "description": "The following are notes on lectures given by Xavier Ovido on relativistic kinematics at the Phythème club.",
       "category": "physics",
       "pdf": "articles/Cinematique_relativiste-Phytheme.pdf"
     },
@@ -42,9 +42,9 @@
     },
     {
       "slug": "Complements_de_Cinematique-Phytheme",
-      "title": "Phythème : Cinematics",
+      "title": "Phythème : Kinematics",
       "date": "2024-10-4",
-      "description": "The following are notes on lectures given by Xavier Ovido on newtonian cinematics at the Phythème club.",
+      "description": "The following are notes on lectures given by Xavier Ovido on newtonian kinematics at the Phythème club.",
       "category":"Physics",
       "pdf": "articles/Complements_de_Cinematique-Phytheme.pdf"
     },
