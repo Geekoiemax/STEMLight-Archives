@@ -1,5 +1,5 @@
 // script.js (for index.html)
-import { translations } from './translation.js';
+import { translations } from 'translation.js';
 
 if (document.getElementById('article-list')) {
   // We are on index.html
