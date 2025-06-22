@@ -2,75 +2,93 @@
   "articles": [
     {
       "slug": "Cinematique_relativiste-Phytheme",
-      "title": "Phythème : Relativistic Kinematics",
+      "title_en": "Phythème : Relativistic Kinematics",
+      "title_fr": "Phythème : Cinématique relativiste",
       "date": "2025-01-30",
-      "description": "The following are notes on lectures given by Xavier Ovido on relativistic kinematics at the Phythème club.",
+      "description_en": "The following are notes on lectures given by Xavier Ovido on relativistic kinematics at the Phythème club.",
+      "description_fr": "Voici des notes de Xavier Ovido sur la cinématique relativiste au club Phythème.",
       "category": "physics",
       "pdf": "articles/Cinematique_relativiste-Phytheme.pdf"
     },
     {
       "slug": "Analyse-lycee",
-      "title": "High School : Calculus",
+      "title_en": "High School : Calculus",
+      "title_fr": "Lycée : Analyse",
       "date": "2025-4-4",
-      "description": "The following are notes on Calculus classes given by Pierre Babinet and Maguelonne Paternotte at the lycée Saint Louis de Gonzague in Paris at the Terminale level. The notes currently cover two chapters : differential equations and integration.",
-      "category":"math",
+      "description_en": "The following are notes on Calculus classes given by Pierre Babinet and Maguelonne Paternotte at the lycée Saint Louis de Gonzague in Paris at the Terminale level. The notes currently cover two chapters : differential equations and integration.",
+      "description_fr": "Voici des notes de cours d'analyse données par Pierre Babinet et Maguelonne Paternotte au lycée Saint Louis de Gonzague à Paris en Terminale. Les notes couvrent actuellement deux chapitres : équations différentielles et intégration.",
+      "category": "math",
       "pdf": "articles/Analyse-lycee.pdf"
     },
     {
       "slug": "Probabilites-lycee",
-      "title": "High School : Probability",
+      "title_en": "High School : Probability",
+      "title_fr": "Lycée : Probabilités",
       "date": "2025-5-21",
-      "description": "The following are notes on Probability from the french highschool math book by Lelivrescolaire. The notes cover the chapter on Sums of random variables and the law of large numbers.",
-      "category":"math",
+      "description_en": "The following are notes on Probability from the french highschool math book by Lelivrescolaire. The notes cover the chapter on Sums of random variables and the law of large numbers.",
+      "description_fr": "Voici des notes sur les probabilités tirées du manuel de mathématiques du lycée Lelivrescolaire. Les notes couvrent le chapitre sur la somme de variables aléatoires et la loi des grands nombres.",
+      "category": "math",
       "pdf": "articles/Probabilites-lycee.pdf"
     },
     {
       "slug": "Mecanique_des_fluides_lycee",
-      "title": "High School : Fluid Dynamics",
+      "title_en": "High School : Fluid Dynamics",
+      "title_fr": "Lycée : Mécanique des fluides",
       "date": "2025-4-3",
-      "description": "The following notes are notes on a HS level class on Fluid Dynamics given by Pierre Chereau at Lycée St Louis de Gonzague. the notes give course reminders on fluid statics. They then cover the different descriptions of fluid flow. Finally, they cover Bernoulli's relation and the Venturi Effect.",
-      "category":"physics",
+      "description_en": "The following notes are notes on a HS level class on Fluid Dynamics given by Pierre Chereau at Lycée St Louis de Gonzague. the notes give course reminders on fluid statics. They then cover the different descriptions of fluid flow. Finally, they cover Bernoulli's relation and the Venturi Effect.",
+      "description_fr": "Voici des notes d'un cours de mécanique des fluides donné par Pierre Chereau au lycée St Louis de Gonzague. Les notes rappellent la statique des fluides, les différentes descriptions de l'écoulement, la relation de Bernoulli et l'effet Venturi.",
+      "category": "physics",
       "pdf": "articles/Mecanique_des_fluides_lycee.pdf"
     },
     {
       "slug": "Radioactivite-lycee",
-      "title": "High School : Radioactivity",
+      "title_en": "High School : Radioactivity",
+      "title_fr": "Lycée : Radioactivité",
       "date": "2025-6-5",
-      "description": "The following notes are notes on a HS level class on Radioactivity given by Pierre Chereau at Lycée St Louis de Gonzague. The first two parts cover the different types of radioactivity and the decay laws. The notes then cover dating using radioactiviy and radioprotection.",
-      "category":"physics",
+      "description_en": "The following notes are notes on a HS level class on Radioactivity given by Pierre Chereau at Lycée St Louis de Gonzague. The first two parts cover the different types of radioactivity and the decay laws. The notes then cover dating using radioactiviy and radioprotection.",
+      "description_fr": "Voici des notes d'un cours de radioactivité donné par Pierre Chereau au lycée St Louis de Gonzague. Les deux premières parties couvrent les différents types de radioactivité et les lois de décroissance. Les notes abordent ensuite la datation par radioactivité et la radioprotection.",
+      "category": "physics",
       "pdf": "articles/Radioactivite-lycee.pdf"
     },
     {
       "slug": "Complements_de_Cinematique-Phytheme",
-      "title": "Phythème : Kinematics",
+      "title_en": "Phythème : Kinematics",
+      "title_fr": "Phythème : Cinématique",
       "date": "2024-10-4",
-      "description": "The following are notes on lectures given by Xavier Ovido on newtonian kinematics at the Phythème club.",
-      "category":"Physics",
+      "description_en": "The following are notes on lectures given by Xavier Ovido on newtonian kinematics at the Phythème club.",
+      "description_fr": "Voici des notes de Xavier Ovido sur la cinématique newtonienne au club Phythème.",
+      "category": "physics",
       "pdf": "articles/Complements_de_Cinematique-Phytheme.pdf"
     },
     {
       "slug": "Electricite-Phytheme",
-      "title": "Phythème : Electricity",
+      "title_en": "Phythème : Electricity",
+      "title_fr": "Phythème : Électricité",
       "date": "2025-3-20",
-      "description": "",
-      "category":"physics",
+      "description_en": "",
+      "description_fr": "",
+      "category": "physics",
       "pdf": "articles/Electricite-Phytheme.pdf"
     },
     {
       "slug": "Dynamique_relativiste-Phytheme",
-      "title": "Phythème : Relativistic dynamics",
+      "title_en": "Phythème : Relativistic dynamics",
+      "title_fr": "Phythème : Dynamique relativiste",
       "date": "2025-3-7",
-      "description": "",
-      "category":"physics",
+      "description_en": "",
+      "description_fr": "",
+      "category": "physics",
       "pdf": "articles/Dynamique_relativiste-Phytheme.pdf"
     },
     {
       "slug": "Engineering_guide-STEMRacing",
-      "title" : "STEM Racing : Engineering guide",
-      "date" : "2025-6-20",
-      "description" : "The following article is an introduction to engineering in the STEM Racing competition. I participated and succeeded in the competition, winning a design prize at the 2024 World finals. However, I found the competition quite inaccessible to independant teams, and so this guide's goal is to give engineers in the competition a helping hand in order to start. The guide is not yet finished, i hope to finish it by September 2025.",
-      "category" : "engineering",
-      "pdf" : "articles/Engineering_guide-STEMRacing.pdf"
+      "title_en": "STEM Racing : Engineering guide",
+      "title_fr": "STEM Racing : Guide d'ingénierie",
+      "date": "2025-6-20",
+      "description_en": "The following article is an introduction to engineering in the STEM Racing competition. I participated and succeeded in the competition, winning a design prize at the 2024 World finals. However, I found the competition quite inaccessible to independant teams, and so this guide's goal is to give engineers in the competition a helping hand in order to start. The guide is not yet finished, i hope to finish it by September 2025.",
+      "description_fr": "Cet article est une introduction à l'ingénierie dans la compétition STEM Racing. J'ai participé et remporté un prix de design lors de la finale mondiale 2024. Cependant, j'ai trouvé la compétition peu accessible aux équipes indépendantes, ce guide vise donc à aider les ingénieurs à démarrer. Le guide n'est pas encore terminé, j'espère le finir d'ici septembre 2025.",
+      "category": "engineering",
+      "pdf": "articles/Engineering_guide-STEMRacing.pdf"
     }
   ]
 }

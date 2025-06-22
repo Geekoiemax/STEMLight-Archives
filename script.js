@@ -56,6 +56,9 @@ if (document.getElementById('article-list')) {
       const articles = data.articles;
       const listEl = document.getElementById('article-list');
 
+      // Store current language
+      let currentLang = localStorage.getItem('language') || 'en';
+
       function showArticles(category) {
         // Clear current list
         listEl.innerHTML = '';
@@ -65,11 +68,13 @@ if (document.getElementById('article-list')) {
           : articles.filter(a => a.category === category);
         // Populate list
         filtered.forEach(item => {
+          const title = item[`title_${currentLang}`] || item.title_en || item.title;
+          const desc = item[`description_${currentLang}`] || item.description_en || item.description || '';
           const li = document.createElement('li');
           li.innerHTML = `
-          <small>${item.date}</small>
-          <a href="${item.pdf}" target="_blank">${item.title}</a>
-          <desc>${item.description}</desc>
+            <small>${item.date}</small>
+            <a href="${item.pdf}" target="_blank">${title}</a>
+            <desc>${desc}</desc>
           `;
           listEl.appendChild(li);
         });
@@ -97,6 +102,38 @@ if (document.getElementById('article-list')) {
           showArticles(cat);
         }
       });
+
+      // Listen for language changes and re-render articles
+      window.setLanguage = lang => {
+        document.querySelectorAll('[data-lang]').forEach(el => {
+          const text = translations[lang]?.[el.dataset.lang];
+          text && (el.innerHTML = text);
+        });
+        localStorage.setItem('language', lang);
+        currentLang = lang;
+        // Update .active class for language buttons
+        const langSwitch = document.getElementById('lang-switch');
+        if (langSwitch) {
+          langSwitch.querySelectorAll('button').forEach(btn => {
+            btn.classList.remove('active');
+            if (btn.textContent.trim().toLowerCase() === lang) {
+              btn.classList.add('active');
+            }
+          });
+        }
+        // Re-render articles in new language
+        const activeBtn = document.querySelector('#category-filters button.active');
+        const cat = activeBtn ? activeBtn.getAttribute('data-category') : 'all';
+        showArticles(cat);
+      };
+
+      // On page load, set language and render articles
+      const savedLang = localStorage.getItem('language') || 'en';
+      currentLang = savedLang;
+      // Re-render articles in saved language
+      const activeBtn = document.querySelector('#category-filters button.active');
+      const cat = activeBtn ? activeBtn.getAttribute('data-category') : 'all';
+      showArticles(cat);
     })
     .catch(err => console.error('Failed to load data.json:', err));
 
