@@ -229,7 +229,7 @@ body, html {
   font-weight: bold;
   margin-left: 0.5rem;
   cursor: pointer;
-  font-size: medium;
+  font-size: large;
 }
 #lang-switch button.active {
   text-decoration: underline;

@@ -22,6 +22,17 @@ const setLanguage = lang => {
     text && (el.innerHTML = text);
   });
   localStorage.setItem('language', lang);
+
+  // Update .active class for language buttons
+  const langSwitch = document.getElementById('lang-switch');
+  if (langSwitch) {
+    langSwitch.querySelectorAll('button').forEach(btn => {
+      btn.classList.remove('active');
+      if (btn.textContent.trim().toLowerCase() === lang) {
+        btn.classList.add('active');
+      }
+    });
+  }
 };
 
 // Make setLanguage available globally
