@@ -219,6 +219,15 @@ body, html {
   border-radius: 3px;
 }
 
+#article-list li desc ul {
+  list-style: disc;   /* or circle, square, none, etc. */
+  margin-left: 1.5em;      /* adjust indentation as needed */
+  padding-left: 1em;       /* adjust as needed */
+}
+#article-list desc ul p {
+  margin: 0;               /* remove extra space if you want tighter lists */
+}
+
 #lang-switch {
   text-align: center;
   margin-bottom: 1rem;
