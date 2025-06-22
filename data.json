@@ -15,7 +15,7 @@
       "title_en": "High School : Calculus",
       "title_fr": "Lycée : Analyse",
       "date": "2025-4-4",
-      "description_en": "These notes are from calculus classes given by Pierre Babinet and Maguelonne Paternotte at Lycée Saint Louis de Gonzague. They cover 2 chapters: <ul><li>Differential equations</li><li>Integration</li></ul>",
+      "description_en": "These notes are from calculus classes given by Pierre Babinet and Maguelonne Paternotte at Lycée Saint Louis de Gonzague. They cover 2 chapters: <ul><li><a href= \"articles/Analyse-lycee.pdf#page=1\" style = \"button\"> Differential equations</a></li><li>Integration</li></ul>",
       "description_fr": "Les notes ici sont les notes du cours d'analyse données par Pierre Babinet et Maguelonne Paternotte au lycée Saint Louis de Gonzague. Elles couvrent 2 chapitres : <ul><li>Équations différentielles</li><li>Intégration</li></ul>",
       "category": "math",
       "pdf": "articles/Analyse-lycee.pdf"

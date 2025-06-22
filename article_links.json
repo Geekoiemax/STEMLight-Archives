@@ -1,0 +1,121 @@
+{
+  "Analyse-lycee": [
+    {
+      "label_en": "Differential equations",
+      "label_fr": "Équations différentielles",
+      "url": "articles/Analyse-lycee.pdf#page=1"
+    },
+    {
+      "label_en": "Integration",
+      "label_fr": "Intégration",
+      "url": "articles/Analyse-lycee.pdf#page=2"
+    }
+  ],
+  "Probabilites-lycee": [
+    {
+      "label_en": "Sum of random variables",
+      "label_fr": "Somme de variables aléatoires",
+      "url": "articles/Probabilites-lycee.pdf#page=1"
+    },
+    {
+      "label_en": "Law of large numbers",
+      "label_fr": "Loi des grands nombres",
+      "url": "articles/Probabilites-lycee.pdf#page=2"
+    }
+  ],
+  "Mecanique_des_fluides_lycee": [
+    {
+      "label_en": "Fluid statics",
+      "label_fr": "Statique des fluides",
+      "url": "articles/Mecanique_des_fluides_lycee.pdf#page=1"
+    },
+    {
+      "label_en": "Descriptions of flow",
+      "label_fr": "Descriptions de l'écoulement",
+      "url": "articles/Mecanique_des_fluides_lycee.pdf#page=2"
+    },
+    {
+      "label_en": "Bernoulli's relation and the Venturi effect",
+      "label_fr": "Relation de Bernoulli et effet Venturi",
+      "url": "articles/Mecanique_des_fluides_lycee.pdf#page=3"
+    }
+  ],
+  "Radioactivite-lycee": [
+    {
+      "label_en": "Types of radioactivity",
+      "label_fr": "Types de radioactivité",
+      "url": "articles/Radioactivite-lycee.pdf#page=1"
+    },
+    {
+      "label_en": "Decay laws",
+      "label_fr": "Lois de décroissance",
+      "url": "articles/Radioactivite-lycee.pdf#page=2"
+    },
+    {
+      "label_en": "Dating by radioactivity",
+      "label_fr": "Datation par radioactivité",
+      "url": "articles/Radioactivite-lycee.pdf#page=3"
+    },
+    {
+      "label_en": "Radioprotection",
+      "label_fr": "Radioprotection",
+      "url": "articles/Radioactivite-lycee.pdf#page=4"
+    }
+  ],
+  "Complements_de_Cinematique-Phytheme": [
+    {
+      "label_en": "Different coordinate systems",
+      "label_fr": "Différents systèmes de coordonnées",
+      "url": "articles/Complements_de_Cinematique-Phytheme.pdf#page=1"
+    },
+    {
+      "label_en": "Kinematic quantities",
+      "label_fr": "Grandeurs cinématiques",
+      "url": "articles/Complements_de_Cinematique-Phytheme.pdf#page=2"
+    },
+    {
+      "label_en": "Motion in a central newtonian force field",
+      "label_fr": "Mouvement dans un champ de force central newtonien",
+      "url": "articles/Complements_de_Cinematique-Phytheme.pdf#page=3"
+    }
+  ],
+  "Electricite-Phytheme": [
+    {
+      "label_en": "The coil",
+      "label_fr": "La bobine",
+      "url": "articles/Electricite-Phytheme.pdf#page=1"
+    },
+    {
+      "label_en": "Free oscillations in an RLC circuit",
+      "label_fr": "Oscillations libres dans un circuit RLC",
+      "url": "articles/Electricite-Phytheme.pdf#page=2"
+    },
+    {
+      "label_en": "Linear circuit in forced sinusoidal regime",
+      "label_fr": "Circuit linéaire en régime sinusoïdal forcé",
+      "url": "articles/Electricite-Phytheme.pdf#page=3"
+    },
+    {
+      "label_en": "Filtering",
+      "label_fr": "Filtrage",
+      "url": "articles/Electricite-Phytheme.pdf#page=4"
+    }
+  ],
+  "Dynamique_relativiste-Phytheme": [
+    {
+      "label_en": "Principles of relativistic dynamics",
+      "label_fr": "Principes de la dynamique relativiste",
+      "url": "articles/Dynamique_relativiste-Phytheme.pdf#page=1"
+    },
+    {
+      "label_en": "Relativistic energy and momentum",
+      "label_fr": "Énergie et quantité de mouvement relativistes",
+      "url": "articles/Dynamique_relativiste-Phytheme.pdf#page=2"
+    },
+    {
+      "label_en": "Applications and examples",
+      "label_fr": "Applications et exemples",
+      "url": "articles/Dynamique_relativiste-Phytheme.pdf#page=3"
+    }
+  ]
+}
