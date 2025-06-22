@@ -1,5 +1,5 @@
 // script.js (for index.html)
-import { translations } from './translation.js';
+import { translations } from 'translation.js';
 
   const setLanguage = lang => {
     document.querySelectorAll('[data-lang]').forEach(el => {
