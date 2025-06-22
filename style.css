@@ -234,3 +234,8 @@ body, html {
 #lang-switch button.active {
   text-decoration: underline;
 }
+
+/* Prevent visited links in the Information section from turning purple */
+#info a:visited {
+  color: #0000EE; /* standard link blue, or match your preferred link color */
+}
