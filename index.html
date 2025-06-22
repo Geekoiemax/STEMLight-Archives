@@ -14,6 +14,7 @@
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <script src = "translation.js"></script>
 </head>
 <body>
   <div id="container">
@@ -21,7 +22,7 @@
       <section id="bio">
         <img src="avatar.png" >
         <h2>Maxime Muller</h2>
-        <p>I'm currently a student in MPSI at Lycée Henri IV, where my passion for math and physics drives my academic pursuits. I recently had the incredible opportunity to serve as a designer for Tachyon Racing in the 2024 STEM Racing world finals. It was an amazing experience, and I'm proud to have played a major role in our team winning the Pressure Challenge, a prestigious design award presented at the finals. <br> Beyond the classroom and the race track, I'm genuinely curious about anything and everything related to STEM, as well as the captivating worlds of High Fantasy and Science Fiction. If you have any fun facts to share, especially in these areas, I'd absolutely love to hear them! </p>
+        <p data-lang="bio">I'm currently a student in MPSI at Lycée Henri IV, where my passion for math and physics drives my academic pursuits. I recently had the incredible opportunity to serve as a designer for Tachyon Racing in the 2024 STEM Racing world finals. It was an amazing experience, and I'm proud to have played a major role in our team winning the Pressure Challenge, a prestigious design award presented at the finals. <br> Beyond the classroom and the race track, I'm genuinely curious about anything and everything related to STEM, as well as the captivating worlds of High Fantasy and Science Fiction. If you have any fun facts to share, especially in these areas, I'd absolutely love to hear them!</p>
       </section>
       <section id="social">
         <ul>
@@ -33,18 +34,18 @@
       </section>
       <section id="filters">
         <ul id="category-filters">
-          <li><button data-category="all">All</button></li>
+          <li><button data-lang="all" data-category="all">All</button></li>
           <!-- More categories -->
-          <li><button data-category="math">Math</button></li>
-          <li><button data-category="physics">Physics</button></li>
-          <li><button data-category="engineering">Engineering</button></li>
+          <li><button data-lang="math" data-category="math">Math</button></li>
+          <li><button data-lang="physics" data-category="physics">Physics</button></li>
+          <li><button data-lang="engineering" data-category="engineering">Engineering</button></li>
         </ul>
       </section>
     </aside>
     <main id="content">
       <div id="lang-switch">
-        <button data-lang="en">EN</button>
-        <button data-lang="fr">FR</button>
+        <button onclick="setLanguage('en')">EN</button>
+        <button onclick="setLanguage('en')">FR</button>
       </div>
       <h1>Introduction</h1>
       <p> Welcome to the STEMLight Archives, home of anything STEM and Literature related. These archives are my repository of all my notes from math notes to engineering articles to book reviews (if i get to writing them). I wish you the best reading and hope you find the information you are looking for.</p>

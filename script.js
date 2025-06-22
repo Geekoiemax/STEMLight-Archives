@@ -53,4 +53,18 @@ if (document.getElementById('article-list')) {
       });
     })
     .catch(err => console.error('Failed to load data.json:', err));
+
+  const setLanguage = lang => {
+    document.querySelectorAll('[data-lang]').forEach(el => {
+      const text = translations[lang]?.[el.dataset.lang];
+      text && (el.textContent = text);
+    });
+    localStorage.setItem('language', lang);
+  };
+
+  // Load saved language on page load
+  document.addEventListener('DOMContentLoaded', () => {
+    const savedLang = localStorage.getItem('language') || 'en';
+    setLanguage(savedLang);
+  });
 }
