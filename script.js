@@ -1,22 +1,38 @@
 // script.js (for index.html)
-import { translations } from './translation.js';
+let translations;
 
-  const setLanguage = lang => {
-    document.querySelectorAll('[data-lang]').forEach(el => {
-      const text = translations[lang]?.[el.dataset.lang];
-      text && (el.innerHTML = text);
-    });
-    localStorage.setItem('language', lang);
-  };
+// Dynamically determine the path for translation.js
+const getTranslationPath = () => {
+  // If running on GitHub Pages, the pathname starts with /STEMLight-Archives
+  if (window.location.hostname.endsWith('github.io')) {
+    return '/STEMLight-Archives/translation.js';
+  }
+  // Otherwise, assume local root
+  return './translation.js';
+};
 
-  // Make setLanguage available globally
-  window.setLanguage = setLanguage;
+const loadTranslations = async () => {
+  const module = await import(getTranslationPath());
+  translations = module.translations;
+};
 
-  // Load saved language on page load
-  document.addEventListener('DOMContentLoaded', () => {
-    const savedLang = localStorage.getItem('language') || 'en';
-    setLanguage(savedLang);
+const setLanguage = lang => {
+  document.querySelectorAll('[data-lang]').forEach(el => {
+    const text = translations[lang]?.[el.dataset.lang];
+    text && (el.innerHTML = text);
   });
+  localStorage.setItem('language', lang);
+};
+
+// Make setLanguage available globally
+window.setLanguage = setLanguage;
+
+// Load saved language and translations on page load
+document.addEventListener('DOMContentLoaded', async () => {
+  await loadTranslations();
+  const savedLang = localStorage.getItem('language') || 'en';
+  setLanguage(savedLang);
+});
 
 if (document.getElementById('article-list')) {
   // We are on index.html
