@@ -1,4 +1,6 @@
 // script.js (for index.html)
+import { translations } from './translation.js';
+
 if (document.getElementById('article-list')) {
   // We are on index.html
   fetch('data.json')
@@ -57,10 +59,13 @@ if (document.getElementById('article-list')) {
   const setLanguage = lang => {
     document.querySelectorAll('[data-lang]').forEach(el => {
       const text = translations[lang]?.[el.dataset.lang];
-      text && (el.textContent = text);
+      text && (el.innerHTML = text);
     });
     localStorage.setItem('language', lang);
   };
+
+  // Make setLanguage available globally
+  window.setLanguage = setLanguage;
 
   // Load saved language on page load
   document.addEventListener('DOMContentLoaded', () => {

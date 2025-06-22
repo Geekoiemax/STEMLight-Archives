@@ -14,7 +14,7 @@
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  <script src = "translation.js"></script>
+  <script type="module" src = "translation.js"></script>
 </head>
 <body>
   <div id="container">
@@ -45,10 +45,10 @@
     <main id="content">
       <div id="lang-switch">
         <button onclick="setLanguage('en')">EN</button>
-        <button onclick="setLanguage('en')">FR</button>
+        <button onclick="setLanguage('fr')">FR</button>
       </div>
       <h1>Introduction</h1>
-      <p> Welcome to the STEMLight Archives, home of anything STEM and Literature related. These archives are my repository of all my notes from math notes to engineering articles to book reviews (if i get to writing them). I wish you the best reading and hope you find the information you are looking for.</p>
+      <p data-lang="intro"> Welcome to the STEMLight Archives, home of anything STEM and Literature related. These archives are my repository of all my notes from math notes to engineering articles to book reviews (if i get to writing them). I wish you the best reading and hope you find the information you are looking for.</p>
       <h1> Info</h1>
       <p>The articles in the STEMLight Archives come from one of the following sources :</p>
       <ul>
@@ -60,6 +60,6 @@
       <ul id="article-list"></ul>
     </main>
   </div>
-  <script src="script.js"></script>
+  <script type = "module" src="script.js"></script>
 </body>
 </html>
