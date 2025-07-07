@@ -47,13 +47,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 if (document.getElementById('article-list')) {
   // We are on index.html
-  fetch('data.json')
-    .then(response => response.json())
-    .then(data => {
+    import('./data.js')
+      .then(module => {
       // Sort articles by date (newest first)
-      data.articles.sort((a, b) => new Date(b.date) - new Date(a.date));
+      module.articles.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-      const articles = data.articles;
+      const articles = module.articles;
       const listEl = document.getElementById('article-list');
 
       // Store current language
