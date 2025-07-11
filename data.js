@@ -52,23 +52,24 @@ export const articles = [
       "pdf": "articles/Probabilites-lycee.pdf"
     },
     {
-      "slug": "Mecanique_des_fluides_lycee",
-      "title_en": "High School : Fluid Dynamics",
-      "title_fr": "Lycée : Mécanique des fluides",
+      "slug": "Mecanique-lycee",
+      "title_en": "High School : Classical Mecanics",
+      "title_fr": "Lycée : Mécanique classique",
       "date": "2025-4-3",
-      "description_en": `These notes are from fluid mechanics classes given by Pierre Chereau at Lycée St Louis de Gonzague. They cover: 
+      "description_en": `These notes are from classical mechanics classes given by Pierre Chereau at Lycée St Louis de Gonzague. They cover: 
         <ul>
-            <li><a target = \"blank\" href= \"articles/Mecanique_des_fluides_lycee.pdf#page=3\" style = \"button\"> Fluid statics</a></li>
-            <li><a target = \"blank\" href= \"articles/Mecanique_des_fluides_lycee.pdf#page=4\" style = \"button\"> Descriptions of flow</a></li>
-            <li><a target = \"blank\" href= \"articles/Mecanique_des_fluides_lycee.pdf#page=6\" style = \"button\"> Bernoulli's relation and the Venturi effect</a></li>
+            <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=3\" style = \"button\">Mechanics' Principles</a></li>
+            <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=4\" style = \"button\">Mouvement in a uniform field</a></li>
+            <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=6\" style = \"button\">Fluid Mechanics</a></li>
         </ul>`,
-      "description_fr": `Les notes ici sont les notes du cours de mécanique des fluides données par Pierre Chereau au lycée St Louis de Gonzague. Elles couvrent : 
+      "description_fr": `Les notes ici sont les notes du cours de mécanique classique données par Pierre Chereau au lycée St Louis de Gonzague. Elles couvrent : 
         <ul>
-            <li><a target = \"blank\" href= \"articles/Mecanique_des_fluides_lycee.pdf#page=3\" style = \"button\"> Statique des fluides</a></li><li><a target = \"blank\" href= \"articles/Mecanique_des_fluides_lycee.pdf#page=4\" style = \"button\"> Descriptions de l'écoulement</a></li>
-            <li><a target = \"blank\" href= \"articles/Mecanique_des_fluides_lycee.pdf#page=6\" style = \"button\"> Relation de Bernoulli et effet Venturi</a></li>
+            <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=3\" style = \"button\">Principes de la Mécanique</a></li>
+            <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=4\" style = \"button\">Mouvement dans un champ uniforme</a></li>
+            <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=6\" style = \"button\">Mécanique des fluides</a></li>
         </ul>`,
       "category": "physics",
-      "pdf": "articles/Mecanique_des_fluides_lycee.pdf"
+      "pdf": "articles/Mecanique-lycee.pdf"
     },
     {
       "slug": "Radioactivite-lycee",
@@ -151,5 +152,23 @@ export const articles = [
       "description_fr": "Cet article est une introduction à l'ingénierie dans la compétition STEM Racing. J'ai participé et remporté un prix de design lors de la finale mondiale 2024. Cependant, j'ai trouvé la compétition peu accessible aux équipes indépendantes, ce guide vise donc à aider les ingénieurs à démarrer. Le guide n'est pas encore terminé, j'espère le finir d'ici septembre 2025.",
       "category": "engineering",
       "pdf": "articles/Engineering_guide-STEMRacing.pdf"
-    }
+    },
+        {
+      "slug": "Physique_Ondulatoire",
+      "title_en": "High School : Wave Physics",
+      "title_fr": "Lycée : Physique Ondulatoire",
+      "date": "2025-4-3",
+      "description_en": `These notes are from wave physics classes given by Pierre Chereau at Lycée St Louis de Gonzague. They cover: 
+        <ul>
+            <li><a target = \"blank\" href= \"articles/Physique_ondulatoire-lycee.pdf#page=3\" style = \"button\"> Astronomical Telescope</a></li>
+            <li><a target = \"blank\" href= \"articles/Physique_ondulatoire-lycee.pdf#page=5\" style = \"button\"> Wave Beharvior</a></li>
+        </ul>`,
+      "description_fr": `Les notes ici sont les notes du cours de physique ondulatoire données par Pierre Chereau au lycée St Louis de Gonzague. Elles couvrent : 
+        <ul>
+            <li><a target = \"blank\" href= \"articles/Physique_ondulatoire-lycee.pdf#page=3\" style = \"button\"> Lunette astronomique</a></li>
+            <li><a target = \"blank\" href= \"articles/Physique_ondulatoire-lycee.pdf#page=5\" style = \"button\"> Comportement Ondulatoire</a></li>
+        </ul>`,
+      "category": "physics",
+      "pdf": "articles/Physique_ondulatoire-lycee.pdf"
+    },
   ]
