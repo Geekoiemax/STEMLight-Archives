@@ -55,7 +55,7 @@ export const articles = [
       "slug": "Mecanique-lycee",
       "title_en": "High School : Classical Mecanics",
       "title_fr": "Lycée : Mécanique classique",
-      "date": "2025-4-3",
+      "date": "2024-9-3",
       "description_en": `These notes are from classical mechanics classes given by Pierre Chereau at Lycée St Louis de Gonzague. They cover: 
         <ul>
             <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=3\" style = \"button\">Mechanics' Principles</a></li>
@@ -157,7 +157,7 @@ export const articles = [
       "slug": "Physique_Ondulatoire",
       "title_en": "High School : Wave Physics",
       "title_fr": "Lycée : Physique Ondulatoire",
-      "date": "2025-4-3",
+      "date": "2024-12-10",
       "description_en": `These notes are from wave physics classes given by Pierre Chereau at Lycée St Louis de Gonzague. They cover: 
         <ul>
             <li><a target = \"blank\" href= \"articles/Physique_ondulatoire-lycee.pdf#page=3\" style = \"button\"> Astronomical Telescope</a></li>
