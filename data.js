@@ -59,14 +59,16 @@ export const articles = [
       "description_en": `These notes are from classical mechanics classes given by Pierre Chereau at Lycée St Louis de Gonzague. They cover: 
         <ul>
             <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=3\" style = \"button\">Mechanics' Principles</a></li>
-            <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=4\" style = \"button\">Mouvement in a uniform field</a></li>
-            <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=6\" style = \"button\">Fluid Mechanics</a></li>
+            <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=7\" style = \"button\">Mouvement in a uniform field</a></li>
+            <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=11\" style = \"button\">Satellites and Planets</a></li>
+            <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=15\" style = \"button\">Fluid Mechanics</a></li>
         </ul>`,
       "description_fr": `Les notes ici sont les notes du cours de mécanique classique données par Pierre Chereau au lycée St Louis de Gonzague. Elles couvrent : 
         <ul>
             <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=3\" style = \"button\">Principes de la Mécanique</a></li>
-            <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=4\" style = \"button\">Mouvement dans un champ uniforme</a></li>
-            <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=6\" style = \"button\">Mécanique des fluides</a></li>
+            <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=7\" style = \"button\">Mouvement dans un champ uniforme</a></li>
+            <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=11\" style = \"button\">Satellites et planètes</a></li>
+            <li><a target = \"blank\" href= \"articles/Mecanique-lycee.pdf#page=15\" style = \"button\">Mécanique des fluides</a></li>
         </ul>`,
       "category": "physics",
       "pdf": "articles/Mecanique-lycee.pdf"
