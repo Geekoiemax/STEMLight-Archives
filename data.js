@@ -173,4 +173,14 @@ export const articles = [
       "category": "physics",
       "pdf": "articles/Physique_ondulatoire-lycee.pdf"
     },
+    {
+      "slug": "Thermodynamique-Lycee",
+      "title_en": "Highschool : Thermodynamics",
+      "title_fr": "Lycée : Thermoodynamique",
+      "date": "2025-02-15",
+      "description_en": "These notes are from thermodynamics classes given by Pierre Chereau at Lycée St Louis de Gonzague.",
+      "description_fr": "Les notes ici sont les notes du cours de thermodynamique données par Pierre Chereau au lycée St Louis de Gonzague.",
+      "category": "physics",
+      "pdf": "articles/thermodynamique-lycee.pdf"
+    },
   ]
